@@ -1,0 +1,3 @@
+This dataset was used for the paper "Hierarchy construction for temporal summarizations of news". Each file contains a temporal summarization that was constructed by NewsTracker (http://newstracker.github.io/). 
+The files are in TSV format and every row contains a sentence for a summary of news articles for a given query (the filename). The columns are defined as: date/time of publication, document ID, line number (in the news article), news story, NOT USED, sentence, url.
+The column news story contains the ground truth label that we assigned. Sentences that have the exact same news story label are considered to be part of the same news story.
